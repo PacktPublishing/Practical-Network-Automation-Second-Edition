@@ -1,0 +1,5 @@
+[testrouters]
+test1     ansible_host=192.168.20.1
+test3     ansible_host=192.168.20.2
+test5     ansible_host=192.168.20.3
+test4     ansible_host=192.168.20.4

@@ -1,0 +1,8 @@
+<DescriptionProfiles>
+<description id="Loopback45">
+<configuration>description Security;switchport access vlan;switchport mode access;spanning-tree portfast</configuration>
+</description>
+<description id="Loopback30">
+<configuration>description Printer;switchport access vlan;switchport mode access;spanning-tree portfast</configuration>
+</description>
+</DescriptionProfiles>

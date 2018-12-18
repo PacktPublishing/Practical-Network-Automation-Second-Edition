@@ -1,0 +1,4 @@
+logging host 192.168.20.5 transport tcp port 514
+logging trap 6
+interface loopback 30
+description "rtr4 loopback interface"

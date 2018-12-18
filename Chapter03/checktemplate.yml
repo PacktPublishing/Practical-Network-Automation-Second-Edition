@@ -1,0 +1,11 @@
+- name: generate configs
+  hosts: all
+  gather_facts: false
+  
+  tasks:
+
+     - name: Ansible config generation
+       template: 
+           src: vsmalltemplate.j2
+           dest: "{{ inventory_hostname }}.txt"
+          

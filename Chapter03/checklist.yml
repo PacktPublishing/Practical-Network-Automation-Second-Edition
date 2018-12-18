@@ -1,0 +1,32 @@
+- name: Run ping commands
+  hosts: all
+  gather_facts: false
+  remote_user: abhishek.ratan.adm
+  connection: local
+  no_log: True
+ 
+  vars:
+    publicips: {
+    "dns1": "4.2.2.2",
+    "dns2": "8.8.8.8",
+    "dns3": "1.1.1.1",
+    "dns4": "8.8.8.4",
+    }
+  
+  tasks:
+
+    - name: run ping to every other host
+      ios_command:
+        commands: ping "{{ item.value }}" repeat 1
+      #: item.key != inventory_hostname
+      with_dict: "{{ publicips }}"
+      register: trace_result
+
+   # - name: Debug registered variables
+    #  debug: var=trace_result
+    - name: Check ping failure
+      fail: msg="Ping not responding {{ item.stdout_lines }}"
+      when: "'100 percent' not in item.stdout[0]" 
+      with_items: "{{ trace_result.results }}"
+     #when: "'100 percent' not in "{{ trace_result }}""
+     #
