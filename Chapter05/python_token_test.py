@@ -14,7 +14,7 @@ def generatetoken(uname,password):
         
 
 ##### A user has already been registered with password 'testpass'
-print ("\nScenario 1: Provide INCorrect username and password combination to generate token")
+print ("\nScenario 1: Provide Incorrect username and password combination to generate token")
 generatetoken("abhishek","testpass123")
 
 print ("\nScenario 2: Provide Correct username and password combination to generate token")
