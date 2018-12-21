@@ -54,7 +54,7 @@ p = getpass.getpass(prompt="Enter your password: ")
 creds=uname+"*.*"+p
 
 #encrypted creds of the registered customers
-#for testing username:password is customer1:password1 , customer2:password2, etc...
+#for testing username:password is customer1:password1 , customer2:password2, and so on...
 getencryptedcreds=encryptcredential(creds)
 
 #vlidate authentication of user
