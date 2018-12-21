@@ -23,5 +23,5 @@ for t in threads:
     t.join()
 
 
-print ("\nTotal exection time:")
+print ("\nTotal execution time:")
 print(datetime.now() - startTime)
