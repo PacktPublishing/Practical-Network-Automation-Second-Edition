@@ -21,7 +21,7 @@ def decryptcredential(pwd):
     return rvalue
 
 ###Encrypt a given set of credentials
-def encyptcredential(pwd):
+def encryptcredential(pwd):
   rvalue=base64.b64encode(pwd.encode())
   return rvalue
 
@@ -55,7 +55,7 @@ creds=uname+"*.*"+p
 
 #encrypted creds of the registered customers
 #for testing username:password is customer1:password1 , customer2:password2, etc...
-getencryptedcreds=encyptcredential(creds)
+getencryptedcreds=encryptcredential(creds)
 
 #vlidate authentication of user
 flag=False
@@ -92,7 +92,7 @@ else:
                 uname=input("Enter your username :")
                 p = getpass.getpass(prompt="Enter your password: ")
                 creds=uname+"*.*"+p
-                getencryptedcreds=encyptcredential(creds)
+                getencryptedcreds=encryptcredential(creds)
                 ## to convert bytes to string
                 getencryptedcreds=getencryptedcreds.decode()
 
