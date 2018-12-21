@@ -10,5 +10,5 @@ for n in range(1, 5):
  hostname=output[1]
  print ("Hostname for IP %s is %s" % (ip,hostname))
 
-print ("\nTotal exection time:")
+print ("\nTotal execution time:")
 print(datetime.now() - startTime)
