@@ -41,7 +41,7 @@ def decryptcredential(pwd):
     return rvalue
 
 ###Encrypt a given set of credentials
-def encyptcredential(pwd):
+def encryptcredential(pwd):
   rvalue=base64.b64encode(pwd.encode())
   return rvalue
 
@@ -100,7 +100,7 @@ def validatecity(inputcity):
     
 ### validate if the username is part of any customers
 if (uname in customers):
-    encryptedcreds=encyptcredential(creds)
+    encryptedcreds=encryptcredential(creds)
     getcustomercreds=customers[uname]
     ### validate if the credentials provided is the same as stored credentials for that customer
     if not(str(encryptedcreds.decode()) == str(getcustomercreds.decode())):
