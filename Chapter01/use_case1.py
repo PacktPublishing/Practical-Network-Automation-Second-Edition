@@ -20,7 +20,7 @@ uname=input("Enter your username :")
 #(try in cmd or invoke using python command)
 p = getpass.getpass(prompt="Enter your password: ")
 
-#construct credential with *.* as seperator between username and password
+#construct credential with *.* as separator between username and password
 creds=uname+"*.*"+p
 
 #encrypted creds of the registered customers
