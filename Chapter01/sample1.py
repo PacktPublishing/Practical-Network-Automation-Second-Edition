@@ -10,8 +10,8 @@ if ("test1" in y) and ("test2" in y):
 #splits the sentence stored in variable x with blank spaces    
 x=y.split(" ")
 print (x)
-#adds the string "awsum" to the third word in the sentence and stores it in x
-x=x[2]+"awsum"
+#adds the string "awesome" to the third word in the sentence and stores it in x
+x=x[2]+"awesome"
 
 #validates if word "are" is in x and prints the message accordingly
 if ("are" in x):
