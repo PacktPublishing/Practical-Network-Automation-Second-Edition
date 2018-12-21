@@ -116,7 +116,7 @@ if (usrauthenticated):
         if (readinput == "y"):
             p = getpass.getpass(prompt="Enter your password: ")
             creds=uname+"*.*"+p
-            newencryptedcreds=encyptcredential(creds)
+            newencryptedcreds=encryptcredential(creds)
             newencryptedcreds=newencryptedcreds.decode()
             getencryptedcreds=getencryptedcreds.decode()
 
