@@ -11,7 +11,7 @@ p = getpass.getpass(prompt="Enter your password: ")
 creds=uname+"*.*"+p
 
 ###Encrypt a given set of credentials
-def encyptcredential(pwd):
+def encryptcredential(pwd):
   rvalue=base64.b64encode(pwd.encode())
   return rvalue
 
@@ -22,11 +22,11 @@ def decryptcredential(pwd):
     return rvalue
 
 
-encyptedcreds=encyptcredential(creds)
+encryptedcreds=encryptcredential(creds)
 
 print ("Simple creds: "+creds)
-print ("Encrypted creds: "+str(encyptedcreds))
-print ("Decrypted creds: "+decryptcredential(encyptedcreds))
+print ("Encrypted creds: "+str(encryptedcreds))
+print ("Decrypted creds: "+decryptcredential(encryptedcreds))
 
 
 
