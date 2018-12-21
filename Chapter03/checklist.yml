@@ -29,4 +29,4 @@
       when: "'100 percent' not in item.stdout[0]" 
       with_items: "{{ trace_result.results }}"
      #when: "'100 percent' not in "{{ trace_result }}""
-     #
+    
