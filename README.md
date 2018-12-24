@@ -40,7 +40,7 @@ from encodedecode import encode, decode
 **Following is what you need for this book:**
 If you are a network engineer or a DevOps professional looking for an extensive guide to help you automate and manage your network efficiently, then this book is for you. No prior experience with network automation is required to get started, however you will need some exposure to Python programming to get the most out of this book.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-11).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-6).
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
