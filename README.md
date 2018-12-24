@@ -27,6 +27,7 @@ alt="https://www.packtpub.com/" border="5" /></a>
 All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
+```
 index="main" earliest=0 | where interface_name="Loopback45" | dedup interface_name,router_name | where interface_status="up" | stats values(interface_name) values(interface_status) by router_name | table router_name
 
 ```
