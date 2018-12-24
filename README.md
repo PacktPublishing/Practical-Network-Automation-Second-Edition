@@ -1,8 +1,8 @@
 # Practical-Network-Automation-Second-Edition
 
-<a href="https://www.packtpub.com/virtualization-and-cloud/implementing-azure-solutions-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789343045"><img src="https://packt-type-cloud.s3.amazonaws.com/uploads/sites/3188/2018/12/9781789955651.png" alt="Practical Network Automation Second Edition" height="256px" align="right"></a>
+<a href=""><img src="https://packt-type-cloud.s3.amazonaws.com/uploads/sites/3188/2018/12/9781789955651.png" alt="Practical Network Automation Second Edition" height="256px" align="right"></a>
 
-This is the code repository for [Practical Network Automation Second Edition](https://www.packtpub.com/virtualization-and-cloud/implementing-azure-solutions-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789343045), published by Packt.
+This is the code repository for [Practical Network Automation Second Edition](), published by Packt.
 
 **A beginner's guide to automating and optimizing networks using Python, Ansible and more**
 
