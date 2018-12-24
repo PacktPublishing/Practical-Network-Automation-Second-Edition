@@ -53,7 +53,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 * Practical Network Scanning [[Packt]](https://www.packtpub.com/networking-and-servers/practical-network-scanning?utm_source=github&utm_medium=repository&utm_campaign=9781788839235) [[Amazon]](https://www.amazon.com/dp/1788839234)
 
 * Practical AWS Networking [[Packt]](https://www.packtpub.com/virtualization-and-cloud/practical-aws-networking?utm_source=github&utm_medium=repository&utm_campaign=9781788398299) [[Amazon]](https://www.amazon.com/dp/1788398297)
-## Get to Know the Authors
+## Get to Know the Author
 **Abhishek Ratan**
 has around 16 years of technical experience in networking, automation, and various ITIL processes, and has worked in a number of roles in different organizations. As a network engineer, security engineer, automation engineer, TAC engineer, tech lead, and content writer, he has gained a wealth of experience in his career. He also has a keen interest in strategy game playing and, when he is not working on technical stuff, he is busy spending time on his strategy games. He is currently leading the automation and monitoring team, learning, and expanding his automation and Artificial Intelligence skills in the ServiceNow. His previous experience includes working for companies such as Microsoft, Symantec, and Navisite.
 
